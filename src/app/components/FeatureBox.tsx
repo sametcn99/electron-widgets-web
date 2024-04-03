@@ -8,7 +8,7 @@ export default function FeatureBox({
   description: string;
 }) {
   return (
-    <div className="w-full sm:w-64 sm:h-64 p-3  flex flex-col border rounded-2xl bg-gray-300 text-black">
+    <div className="flex w-full flex-col rounded-2xl  border bg-gray-300 p-3 text-black sm:h-64 sm:w-64">
       <h1 className="text-2xl font-bold">{title}</h1>
       <p>{description}</p>
     </div>
