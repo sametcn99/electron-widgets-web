@@ -16,7 +16,6 @@ export async function GET(request: NextRequest) {
       // Iterate through each folder in the root folder
       const userFolders = await getFolderRefs(folder); // Retrieve the folder references inside the current folder
       const folders: Folder[] = []; // Initialize an array to store the folder information
-
       for (const userFolder of userFolders) {
         // Iterate through each user folder inside the current folder
         const files = await getFilesInFolder(userFolder); // Retrieve the files inside the user folder

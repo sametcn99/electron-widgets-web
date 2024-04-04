@@ -41,7 +41,7 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="/favicon.png" />
       </head>
-      <body className={montSerrat.className}>
+      <body className={`${montSerrat.className} heropattern antialiased`}>
         {children}
         <Analytics />
       </body>
