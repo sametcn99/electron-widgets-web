@@ -21,11 +21,11 @@ export default function Home() {
           Get Started
         </Link>
         <Link
-          href="/community"
+          href="https://github.com/sametcn99/electron-widgets/discussions"
           target="_blank"
-          className="w-54 pointer-events-none mt-4 rounded-lg border bg-zinc-900 p-4 text-white"
+          className="w-54 mt-4 rounded-lg border bg-zinc-900 p-4 text-white"
         >
-          Community (testing)
+          Community
         </Link>
       </div>
       <Link
@@ -40,7 +40,7 @@ export default function Home() {
         <h2 className="text-center text-3xl font-bold">Features</h2>
         <div className="flex flex-row flex-wrap items-center justify-center gap-4">
           <FeatureBox
-            title="Publish Your Widgets (Testing)"
+            title="Publish Your Widgets"
             description="Create your own widgets and share them with the community. For now, you can contribute your widgets to the github repository."
           />
           <FeatureBox

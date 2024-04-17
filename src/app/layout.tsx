@@ -11,7 +11,14 @@ export const metadata: Metadata = {
   description:
     "The application allows users to create and manage widgets on their desktops.",
   applicationName: "Electron Widgets",
-  keywords: ["Electron", "Widgets", "Desktop"],
+  keywords: [
+    "Electron",
+    "Widgets",
+    "Desktop",
+    "widget management",
+    "Electron.js",
+    "Electron widgets",
+  ],
   openGraph: {
     title: "Electron Widgets",
     description:
