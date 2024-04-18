@@ -30,11 +30,11 @@ export default function Home() {
       </div>
       <Link
         href={
-          "https://github.com/sametcn99/electron-widgets/releases/download/2.0.0/electron-widgets-2.0.0.Setup.exe"
+          "https://github.com/sametcn99/electron-widgets/releases/download/2.0.1/electron-widgets-2.0.1.Setup.exe"
         }
         className="gap-2  rounded-lg  p-2 text-center font-bold text-white hover:underline"
       >
-        🎉 Download 2.0.0 Release <p className="font-thin">(Windows for now)</p>
+        🎉 Download 2.0.1 Release <p className="font-thin">(Windows for now)</p>
       </Link>
       <section className="mt-52 flex flex-col">
         <h2 className="text-center text-3xl font-bold">Features</h2>
