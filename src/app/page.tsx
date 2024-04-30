@@ -62,7 +62,11 @@ export default function Home() {
         <div className="flex  flex-row flex-wrap items-center justify-center gap-5">
           <FeatureBox
             title="Publish Your Widgets"
-            description="Create your own widgets and share them with the community. For now, you can contribute your widgets to the github repository."
+            description="Create your own widgets and share them with the community."
+          />
+          <FeatureBox
+            title="Create your own widgets easily using built in tools"
+            description="The application provides a simple and easy-to-use interface for creating widgets with HTML, CSS, and JavaScript."
           />
           <FeatureBox
             title="Customizable Widget Options"
