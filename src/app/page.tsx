@@ -49,8 +49,8 @@ export default function Home() {
         </div>
         <Image
           src={"/screenshot.png"}
-          width={450}
-          height={450}
+          width={447}
+          height={647}
           alt="screenshot"
           className="rounded-lg shadow-2xl shadow-green-950"
         />
