@@ -65,7 +65,7 @@ export default function Home() {
             description="Create your own widgets and share them with the community."
           />
           <FeatureBox
-            title="Create your own widgets easily using built in tools"
+            title="Built In Tools"
             description="The application provides a simple and easy-to-use interface for creating widgets with HTML, CSS, and JavaScript."
           />
           <FeatureBox
