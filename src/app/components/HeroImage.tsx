@@ -36,7 +36,7 @@ export default function HeroImage() {
   };
 
   return (
-    <section className="h-[647px] w-[447px] select-none rounded-lg bg-zinc-950 text-slate-300">
+    <section className="h-[647px] w-[447px] select-none rounded-lg bg-zinc-950 text-slate-300 shadow-2xl shadow-green-950">
       <nav
         id="custom-title-bar"
         className="sticky top-0 z-50 flex h-fit w-full flex-row items-center justify-between bg-black px-2 font-bold"
