@@ -19,21 +19,30 @@ export default function Hero() {
             <span className="text-blue-90 font-semibold">Electron.JS</span>
           </p>
         </div>
-        <div className="flex select-none flex-row flex-wrap items-center justify-center gap-8">
+        <div className="flex flex-col items-center">
           <Link
             href={"https://sametcc.me/electron-widgets"}
             target="_blank"
-            className="w-54 mt-4 rounded-lg  bg-green-950 p-4 font-bold text-white hover:bg-green-900"
+            className="mt-4 w-[8rem] rounded-lg  bg-green-950 p-4 font-bold text-white hover:bg-green-900"
           >
             Get Started
           </Link>
-          <Link
-            href="https://github.com/sametcn99/electron-widgets/discussions"
-            target="_blank"
-            className="w-54 mt-4 rounded-lg bg-zinc-800 p-4 text-white hover:bg-zinc-900"
-          >
-            Community
-          </Link>
+          <div className="flex select-none flex-row flex-wrap items-center justify-center gap-8">
+            <Link
+              href="https://github.com/sametcn99/electron-widgets/discussions"
+              target="_blank"
+              className="mt-4 w-[8rem] rounded-lg bg-zinc-800 p-4 text-white hover:bg-zinc-900"
+            >
+              Community
+            </Link>
+            <Link
+              href="https://github.com/sametcn99/electron-widgets/wiki"
+              target="_blank"
+              className="mt-4 w-[8rem] rounded-lg bg-zinc-800 p-4 text-white hover:bg-zinc-900"
+            >
+              Docs
+            </Link>
+          </div>
         </div>
       </div>
       <HeroImage />

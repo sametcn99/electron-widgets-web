@@ -56,12 +56,14 @@ export default function HeroImage() {
         <div className="flex w-fit flex-row items-center gap-2">
           <button
             id="minimizeBtn"
+            title="Minimize Window"
             className="h-8 w-8 cursor-default rounded-md border-0 bg-transparent font-extrabold transition-colors duration-300 hover:bg-zinc-800"
           >
             —
           </button>
           <button
             id="closeBtn"
+            title="Close Window"
             className="h-8 w-8 cursor-default rounded-md border-0 bg-transparent font-extrabold transition-colors duration-300 hover:bg-red-900"
           >
             X
@@ -114,6 +116,11 @@ export default function HeroImage() {
             onDragStart={(e) => {
               e.preventDefault();
             }}
+            title="GitHub Repository"
+            onClick={() => {
+              // open github repository in a new tab
+              window.open("https://sametcc.me/electron-widgets", "_blank");
+            }}
           />
           <Image
             id="open-directory"
@@ -125,6 +132,7 @@ export default function HeroImage() {
             onDragStart={(e) => {
               e.preventDefault();
             }}
+            title="Open Directory"
           />
           <Image
             id="add-widget"
@@ -136,6 +144,7 @@ export default function HeroImage() {
             onDragStart={(e) => {
               e.preventDefault();
             }}
+            title="Add Widget"
           />
           <Image
             id="show-all-widgets"
@@ -147,6 +156,7 @@ export default function HeroImage() {
             onDragStart={(e) => {
               e.preventDefault();
             }}
+            title="Show All Widgets"
           />
         </footer>
       </main>
