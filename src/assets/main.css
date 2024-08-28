@@ -1,0 +1,56 @@
+@import './base.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  place-items: center;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 0.6rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+  user-select: none;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+h1 {
+  margin: 0;
+  font-weight: 800;
+  color: var(--color-heading);
+  font-size: xx-large;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  color: var(--color-heading);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
